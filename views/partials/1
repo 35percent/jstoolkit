@@ -1,0 +1,19 @@
+<div id="summary" class="tab-pane fade in active">
+      <h4>Summary</h4>
+    <table class="table table-bordered">
+    <tbody>
+      <tr class="success">
+        <td>Revenue</td>
+        <td>£230,674,746</td>
+      </tr>
+      <tr class="danger">
+        <td>Costs</td>
+        <td>£197,350,277</td>
+      </tr>
+      <tr class="info">
+        <td>Profit</td>
+        <td><%= ccosts %></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
