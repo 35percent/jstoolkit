@@ -8,6 +8,11 @@ router.get('/', function(req, res) {
   res.render('index', { ccosts: "0", revenue: "0" });
 });
 
+router.get('/about', function(req, res) {
+  res.render('about');
+});
+
+
 router.post('/ccosts', function(req, res) {
   var ccosts = req.body.ccosts
   res.render('index', { ccosts: (ccosts) });
